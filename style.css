@@ -1,0 +1,71 @@
+/*style.css*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, border{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color:#fff;
+}
+
+body{
+	height:100%;
+	margin:auto;
+	font-family:Arial, sans-serif;
+	font-size: small;
+	color:#333333;
+	line-height: 25px;
+	background-color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: georgia, garamond, "times new roman", times, serif;
+	color: #666666;
+	font-weight: bold;
+	padding-top: 40px;
+}
+
+h2, h3, h4, h5, h6, p{
+	margin:20px;
+}
+
+h1{
+	margin:0;	
+	font-size: 250%;
+	padding:20px;
+	background-color:#63dc90;
+}
+h2{
+	font-size: 130%;
+}
+h3{
+	font-size: 120%;
+}
+h4{
+	font-size: 110%;
+}
+h5{
+	font-size: 100%;
+}
+h6{
+	font-size: 100%;
+}
+
+a:link, a:visited {
+	color:#ff0000;
+	text-decoration:underline;
+}
+a:active, a:hover{
+	color:#ff0000;
+	text-decoration:none;
+}
+
+a img{
+	border:0;
+}
+
+#tedPhoto{
+	margin: 0 20px 0 0;
+	float:left;
+}
