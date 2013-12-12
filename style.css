@@ -15,7 +15,7 @@ body{
 	font-family:Arial, sans-serif;
 	font-size: small;
 	color:#333333;
-	line-height: 25px;
+	line-height: 1.1;
 	background-color:#fff;
 }
 
@@ -23,11 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: georgia, garamond, "times new roman", times, serif;
 	color: #666666;
 	font-weight: bold;
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 h2, h3, h4, h5, h6, p{
-	margin:20px;
+	margin:0 0 0 20px;
 }
 
 h1{
