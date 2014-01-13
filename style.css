@@ -1,6 +1,6 @@
 /*style.css*/
 
-html, body, h1, h2, h3, h4, h5, h6, p, border{
+html, body, h1, h2, h3, h4, h5, h6, ul, li, p, border{
 	margin:0;
 	padding:0;
 }
@@ -12,48 +12,53 @@ html{
 body{
 	height:100%;
 	margin:auto;
-	font-family:Arial, sans-serif;
 	font-size: small;
 	color:#333333;
-	line-height: 1.1;
+	line-height: 1.5;
 	background-color:#fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, ul, li, p{
 	font-family: georgia, garamond, "times new roman", times, serif;
 	color: #666666;
-	font-weight: bold;
-	padding-top: 0px;
-}
-
-h2, h3, h4, h5, h6, p{
-	margin:0 0 0 20px;
+	margin:0 0 0 1%;
 }
 
 h1{
 	margin:0;	
-	font-size: 250%;
-	padding:20px;
+	font-size: 200%;
+	padding: 0.5em 1em 0.5em 1%;
 	background-color:#63dc90;
 }
+
 h2{
 	font-size: 130%;
+	padding: .4em 0 .2em 0;
+	border-bottom: 2px solid #63dc90;
 }
+
 h3{
 	font-size: 120%;
+	padding-top: .6em;
 }
+
 h4{
 	font-size: 110%;
 }
+
 h5{
 	font-size: 100%;
 }
+
 h6{
 	font-size: 100%;
 }
 
 a:link, a:visited {
 	color:#ff0000;
+	font-size: 150%;
+	float: left;
+	padding-right: 0.5em;
 	text-decoration:underline;
 }
 a:active, a:hover{
@@ -68,4 +73,20 @@ a img{
 #tedPhoto{
 	margin: 0 20px 0 0;
 	float:left;
+}
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.bizdescr{
+	font-style: italic;
+}
+
+.jobtitle{
+	font-weight: bold;
 }
