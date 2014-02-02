@@ -73,6 +73,7 @@ a img{
 #tedPhoto{
 	margin: 0 20px 0 0;
 	float:left;
+	max-width: 30%;
 }
 
 .clearfix:after{
