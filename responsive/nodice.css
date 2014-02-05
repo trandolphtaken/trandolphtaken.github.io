@@ -1,0 +1,16 @@
+
+body{
+	background-color: darkkhaki;
+}
+
+h1{
+	color: white;
+	font-size: 200%;
+	padding: 0.5em;
+	background-color: darkred;
+	text-align: center;
+}
+
+h1 #nodicer{
+	font-size: 100%;
+}
